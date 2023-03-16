@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $cfile > c
+gcc $CFILE -E -o c

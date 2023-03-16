@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * Program print hello
+ * main -print a c program
  *
- * main -Entry point
- *
- * Return: Always 0 (success)
+ * Return: 0
  */
 int main(void)
 {

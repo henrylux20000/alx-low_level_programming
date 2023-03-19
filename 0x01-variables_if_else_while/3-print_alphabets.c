@@ -19,5 +19,6 @@ for (; m <= 'z'; m++)
 {
 putchar(m);
 }
+putchar('\n');
 return (0);
 }

@@ -7,20 +7,17 @@
   *
   *Return: Always 0 (success)
   */
-  
-  
 int main(void)
 {
-int i;
-char letter[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
-char ch;
-for (i = 0; ch = letter[i]; i++)
+char i = 'a';
+char m = i;
+for (; i <= 'z'; i++)
 {
-putchar(tolower(ch));
+putchar(i);
 }
-for (i = 0; ch = letter[i]; i++)
+for (; m <= 'z'; m++)
 {
-putchar(toupper(ch));
+putchar(m);
 }
 return (0);
 }

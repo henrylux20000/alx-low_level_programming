@@ -2,23 +2,22 @@
 #include <stdlib.h>
 
 /**
- * msin - Entry point
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
+char m;
 int b = 0 + '0';
 while (b <= 9 + '0')
 {
 putchar(b);
-b++
+b++;
 }
-char m = 'a';
-while (m <= 'f')
+for (m = 'a'; m <= 'f'; m++)
 {
 putchar(m);
-m++;
 }
 putchar('\n');
 return (0);

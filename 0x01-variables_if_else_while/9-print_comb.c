@@ -14,7 +14,7 @@ while (a <= 9 + '0')
 putchar(a);
 a++;
 putchar(',');
-putchar(' ');
+putchar('');
 }
 putchar('\n');
 return (0);

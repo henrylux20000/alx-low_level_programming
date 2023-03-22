@@ -8,6 +8,7 @@
  */
 int main(void)
 {
+char a;
 print_alphabet();
 for (a = 'a'; a <= 'z'; a++)
 {

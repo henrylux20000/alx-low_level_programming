@@ -3,7 +3,8 @@
 /**
  * print_most_numbers - 2 and 4
  */
-void print_most_numbers(void) {
+void print_most_numbers(void)
+{
 int a = 0 + '0';
 for (; a <= 9 + '0'; a++)
 {
